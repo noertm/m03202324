@@ -23,7 +23,7 @@ public class ProgramaQueLeeCaracteresYEnteros {
         int edad;
         char clase; //Character(letras)
         Scanner sc = new Scanner (System.in);
-        System.out.println("A que clase vas?");
+        System.out.println("A que clase vas?  ");
         clase = sc.next().charAt (0);
         System.out.println("Vas al grupo " + clase);
         System.out.print("Que edad tienes?");
